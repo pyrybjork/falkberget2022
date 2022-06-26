@@ -1,0 +1,83 @@
+/* common */
+body {
+  font: 'Roboto'
+}
+
+.float_left {
+  float: left;
+}
+
+.float_right {
+  float: right;
+}
+
+.icon_l {
+  font-size: 20px;
+  margin-bottom: -4px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.subtitle {
+  margin-left: 10%;
+  text-align: left;
+}
+
+.paragraph {
+  text-align: left;
+  margin: 0 10%;
+}
+
+
+/* -- Navigation -- */
+
+.navigation {
+  position: fixed;
+  top: 0;
+  width: 80%; /* 100 - padding*/
+  z-index: 3;
+  background-color: whitesmoke;
+  text-align: center;
+  margin: 0;
+  list-style-type: none;
+  padding: 10px 10% 10px 10%;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: black;
+}
+
+.hamburger_menu {
+  width: 80%;
+  margin-top: 40px;
+}
+
+/* -- Content -- */
+
+.content {
+  margin: 60px 5% 0 5%;
+  text-align: center;
+}
+
+/* -- Packing List */
+
+.packing_list_category {
+  margin: 0;
+}
+
+.packing_list_category > ul {
+  text-align: left;
+}
+
