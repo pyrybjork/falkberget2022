@@ -66,6 +66,11 @@ body {
 
 .hamburger_menu > li {
   padding: 2px 0px;
+  font-size: larger;
+}
+
+.language_selector {
+  padding: 8px;
 }
 
 /* -- Content -- */
