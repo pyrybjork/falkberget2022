@@ -1,12 +1,14 @@
 import React, { useState } from 'react'
 import './App.css'
 
-import Navigation from './components/navigation'
-import PackingList from './components/packing_list'
-import FalkbergetInfo from './components/falkberget_info'
 import Start from './components/start'
+import Navigation from './components/navigation'
+import FalkbergetInfo from './components/falkberget_info'
+import PackingList from './components/packing_list'
 import Program from './components/program'
 import SafetyPlan from './components/safety_plan'
+
+import Footer from './components/footer'
 
 type language = 'en' | 'fi' | 'sv'
 
@@ -30,6 +32,7 @@ const App: React.FunctionComponent = () => {
         <Program language={language} />
         <SafetyPlan language={language} />
 
+        <Footer language={language} />
       </div>
     </div>
   );
