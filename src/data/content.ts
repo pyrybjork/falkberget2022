@@ -110,8 +110,15 @@ const content = {
                 "items": [
                     {
                         "checkbox": true,
-                        "en": "Water for the weekend (drinking, cooking and washing hands and dishes). Approx 8l/person. If you run out of water during the camp it's possible to get more but requires driving",
-                        "fi": "Vettä koko viikonlopuksi (juomiseen, ruuanlaittoon, käsien pesuun ja tiskaamiseen). Arviolta 8l/henkilö. Jos vesi loppuu leirin aikana, sitä on mahdollsita hakea autolla lisää",
+                        "en": "Water for the weekend (drinking, cooking and washing hands and dishes). Approx 8l/person",
+                        "fi": "Vettä koko viikonlopuksi (juomiseen, ruuanlaittoon, käsien pesuun ja tiskaamiseen). Arviolta 8l/henkilö",
+                        "sv": ""
+                    },
+
+                    {
+                        "checkbox": false,
+                        "en": "If you run out of water during the camp it's possible to get more but requires driving",
+                        "fi": "Jos vesi loppuu leirin aikana, sitä on mahdollsita hakea autolla lisää",
                         "sv": ""
                     },
 

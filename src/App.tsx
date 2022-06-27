@@ -34,10 +34,10 @@ const App: React.FunctionComponent = () => {
 
         <h2 className='falkberget subtitle'>{content.falkberget_info.title[language]}</h2>
         <p className='paragraph'>
-          <a href="https://27crags.com/crags/falkberget-603" target="_blank">{content.falkberget_info['27crags'][language]}</a>
+          <a href="https://27crags.com/crags/falkberget-603" target="_blank" rel="noreferrer">{content.falkberget_info['27crags'][language]}</a>
           <br />
           <br />
-          <a href="https://www.google.com/maps/place/Falkberget+Parkering/@65.380594,21.366302,18z/data=!4m5!3m4!1s0x0:0x6e70188f4d1e2945!8m2!3d65.3808333!4d21.3655556?hl=en-US" target="_blank">{content.falkberget_info.parking[language]}</a>
+          <a href="https://www.google.com/maps/place/Falkberget+Parkering/@65.380594,21.366302,18z/data=!4m5!3m4!1s0x0:0x6e70188f4d1e2945!8m2!3d65.3808333!4d21.3655556?hl=en-US" target="_blank" rel="noreferrer">{content.falkberget_info.parking[language]}</a>
         </p>
 
         <PackingList language={language}></PackingList>

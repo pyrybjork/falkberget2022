@@ -64,6 +64,10 @@ body {
   margin-top: 40px;
 }
 
+.hamburger_menu > li {
+  padding: 2px 0px;
+}
+
 /* -- Content -- */
 
 .content {
