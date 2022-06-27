@@ -1,7 +1,7 @@
 import content from "../data/content"
 import React, { useState } from 'react';
 
-import { MdMenu, MdClose } from 'react-icons/md';
+import { MdMenu, MdClose, MdLaunch } from 'react-icons/md';
 
 type language = 'en' | 'fi' | 'sv'
 
@@ -37,6 +37,10 @@ const Navigation: React.FunctionComponent<NavigationProps> = ({language, changeL
                     <li onClick={toggleMenu}><a href="#packing_list">{content.nav.packing_list[language]}</a></li>
                     <li onClick={toggleMenu}><a href="#program">{content.nav.program[language]}</a></li>
                     <li onClick={toggleMenu}><a href="#safety_plan">{content.nav.safety_plan[language]}</a></li>
+
+                    <hr />
+
+                    <li onClick={toggleMenu}><a href="https://github.com/pyrybjork/falkberget2022">{content.nav.source[language]} <MdLaunch /> </a></li>
                 </ul>
             ) : null}
     

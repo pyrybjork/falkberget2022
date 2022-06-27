@@ -29,6 +29,12 @@ const content = {
             "fi": "Turvallisuussuunnitelma",
             "sv": ""
         },
+
+        "source": {
+            "en": "Source code",
+            "fi": "Lähdekoodi",
+            "sv": ""
+        }
     },
 
     "main": {
@@ -67,7 +73,7 @@ const content = {
 
         "boulder_guide": {
             "en": "Pdf boulder topo (in Swedish). It may be missing some recent climbs",
-            "fi": "Pdf-bouldertopo (ruotsiksi). Kaikista uusimmat reitit saattavat puuttua",
+            "fi": "Pdf-bouldertopo (ruotsiksi). Uusimmat reitit saattavat puuttua",
             "sv": ""
         }
     },
