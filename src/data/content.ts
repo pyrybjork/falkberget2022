@@ -16,7 +16,19 @@ const content = {
             "en": "Packing list",
             "fi": "Varustelista",
             "sv": ""
-        }
+        },
+
+        "program": {
+            "en": "Program",
+            "fi": "Ohjelma",
+            "sv": ""
+        },
+
+        "safety_plan": {
+            "en": "Safety plan",
+            "fi": "Turvallisuussuunnitelma",
+            "sv": ""
+        },
     },
 
     "main": {
@@ -372,6 +384,22 @@ const content = {
             }
 
         ]
+    },
+
+    "program" : {
+        "title": {
+            "en": "Program",
+            "fi": "Ohjelma",
+            "sv": ""
+        },
+    },
+
+    "safety_plan" : {
+        "title": {
+            "en": "Safety plan",
+            "fi": "Turvallisuussuunnitelma",
+            "sv": ""
+        },
     }
 }
 

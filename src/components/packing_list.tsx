@@ -54,6 +54,8 @@ const PackingList: React.FunctionComponent<PackingListProps> = ({language}: Pack
     
     return (
         <div className="packing_list">
+            <a className="anchor" id="packing_list"></a>
+
             <h2 className="subtitle">{content.packing_list.title[language]}</h2>
             <div>
                 {content.packing_list.categories.map((item, index) => (

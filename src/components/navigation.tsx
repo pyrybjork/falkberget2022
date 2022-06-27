@@ -35,6 +35,8 @@ const Navigation: React.FunctionComponent<NavigationProps> = ({language, changeL
                 <ul className="hamburger_menu">
                     <li onClick={toggleMenu}><a href="#home">{content.nav.home[language]}</a></li>
                     <li onClick={toggleMenu}><a href="#packing_list">{content.nav.packing_list[language]}</a></li>
+                    <li onClick={toggleMenu}><a href="#program">{content.nav.program[language]}</a></li>
+                    <li onClick={toggleMenu}><a href="#safety_plan">{content.nav.safety_plan[language]}</a></li>
                 </ul>
             ) : null}
     

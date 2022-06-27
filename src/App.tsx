@@ -3,15 +3,16 @@ import './App.css'
 
 import Navigation from './components/navigation'
 import PackingList from './components/packing_list'
-import content from "./data/content"
-import oks_logo from "./img/oks-91.png"
-import boulder_guide from "./img/falkberget_boulder_guide.pdf"
+import FalkbergetInfo from './components/falkberget_info'
+import Start from './components/start'
+import Program from './components/program'
+import SafetyPlan from './components/safety_plan'
 
 type language = 'en' | 'fi' | 'sv'
 
 const App: React.FunctionComponent = () => {
 
-  const [language, setlanguage] = useState<language>('fi');
+  const [language, setlanguage] = useState<language>('en');
 
   const changeLanguage = (lang: language) => {
     setlanguage(lang);
@@ -19,30 +20,16 @@ const App: React.FunctionComponent = () => {
 
   return (
     <div>
-      <div id='home' />
       <Navigation language={language} changeLanguage={changeLanguage}/>
 
       <div className='content'>
-        <h1>{content.main.title[language]}</h1>
-
-        <p className='description paragraph'>{content.main.description[language]}</p>
-
-        <div className='logos_div'>
-          <img src={oks_logo} alt="oulunkiipeilyseura" />
-        </div>
-
-        <h2 className='falkberget subtitle'>{content.falkberget_info.title[language]}</h2>
-        <p className='paragraph'>
-          <a href="https://27crags.com/crags/falkberget-603" target="_blank" rel="noreferrer">{content.falkberget_info['27crags'][language]}</a>
-          <br />
-          <br />
-          <a href="https://www.google.com/maps/place/Falkberget+Parkering/@65.380594,21.366302,18z/data=!4m5!3m4!1s0x0:0x6e70188f4d1e2945!8m2!3d65.3808333!4d21.3655556?hl=en-US" target="_blank" rel="noreferrer">{content.falkberget_info.parking[language]}</a>
-          <br />
-          <br />
-          <a href={boulder_guide} target="_blank" rel="noreferrer">{content.falkberget_info.boulder_guide[language]}</a>
-        </p>
-
+        
+        <Start language={language} />
+        <FalkbergetInfo language={language} />
         <PackingList language={language}></PackingList>
+        <Program language={language} />
+        <SafetyPlan language={language} />
+
       </div>
     </div>
   );
