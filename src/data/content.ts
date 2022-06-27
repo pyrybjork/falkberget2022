@@ -51,6 +51,12 @@ const content = {
             "en": "Navigate to parking",
             "fi": "Navigoi parkkipaikalle",
             "sv": ""
+        },
+
+        "boulder_guide": {
+            "en": "Pdf boulder topo (in Swedish). It may be missing some recent climbs",
+            "fi": "Pdf-bouldertopo (ruotsiksi). Kaikista uusimmat reitit saattavat puuttua",
+            "sv": ""
         }
     },
 
