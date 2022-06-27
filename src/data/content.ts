@@ -361,7 +361,7 @@ const content = {
 
                     {
                         "checkbox": true,
-                        "en": "A prusik and another locking carabiner for rappelling, also a cowtail",
+                        "en": "A prusik and another locking carabiner for rappelling",
                         "fi": "Prusiikki ja toinen lukkosulkkari laskeutumiseen",
                         "sv": ""
                     },
