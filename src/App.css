@@ -39,7 +39,6 @@ body {
   margin: 0 10%;
 }
 
-
 /* -- Navigation -- */
 
 .navigation {
@@ -60,6 +59,7 @@ body {
 }
 
 .hamburger_menu {
+  list-style-type: none;
   width: 80%;
   margin-top: 40px;
 }
@@ -71,6 +71,15 @@ body {
   text-align: center;
 }
 
+#home {
+  position: absolute;
+  top: 0;
+}
+
+.logos_div > img {
+  width: 20%;
+  padding: 20px 5px 0 5px;
+}
 /* -- Packing List */
 
 .packing_list_category {
@@ -79,5 +88,19 @@ body {
 
 .packing_list_category > ul {
   text-align: left;
+  list-style-type: none;
 }
 
+.packing_list_checkbox {
+  margin-left: -20px;
+}
+
+.packing_list_icon {
+  margin-left: -25px;
+  font-size: 20px;
+  margin-bottom: -4px;
+}
+
+.packing_list_item {
+  margin-bottom: 5px;
+}

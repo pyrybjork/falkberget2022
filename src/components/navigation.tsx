@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 import { MdMenu, MdClose } from 'react-icons/md';
 
-type language = 'en' | 'fi'
+type language = 'en' | 'fi' | 'sv'
 
 interface NavigationProps {
     language: language;
@@ -33,7 +33,8 @@ const Navigation: React.FunctionComponent<NavigationProps> = ({language, changeL
         
             {menuToggled? (
                 <ul className="hamburger_menu">
-                    <a href="#packing_list">{content.nav.packing_list[language]}</a>
+                    <li onClick={toggleMenu}><a href="#home">{content.nav.home[language]}</a></li>
+                    <li onClick={toggleMenu}><a href="#packing_list">{content.nav.packing_list[language]}</a></li>
                 </ul>
             ) : null}
     

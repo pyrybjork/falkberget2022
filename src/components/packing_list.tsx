@@ -1,7 +1,9 @@
 import content from "../data/content"
 import React, { useState } from 'react';
 
-type language = 'en' | 'fi'
+import { MdKeyboardArrowRight } from 'react-icons/md';
+
+type language = 'en' | 'fi' | 'sv'
 
 interface PackingListProps {
     language: language;
@@ -13,10 +15,13 @@ interface PackingListCategoryProps {
         title: {
             en: string;
             fi: string;
+            sv: string;
         };
         items: {
+            checkbox: boolean;
             en: string;
             fi: string;
+            sv: string;
         }[];
     }
 }
@@ -27,7 +32,18 @@ const PackingListCategory: React.FunctionComponent<PackingListCategoryProps> = (
             <h3>{category.title[language]}</h3>
             <ul>
                 {category.items.map((item, index) => (
-                    <li key={index}>{item[language]}</li>
+                    <li className="packing_list_item" key={index}>
+                        {item.checkbox? 
+                        <div>
+                            <input className="packing_list_checkbox" type="checkbox" id="" />
+                            {item[language]}
+                        </div> : 
+                        <div>
+                            <MdKeyboardArrowRight className="packing_list_icon" />
+                            {item[language]}
+                        </div>
+                        }
+                    </li>
                 ))}
             </ul>
         </div>
