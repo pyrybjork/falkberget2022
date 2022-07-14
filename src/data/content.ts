@@ -75,6 +75,12 @@ const content = {
             "en": "Pdf boulder topo (in Swedish). It may be missing some recent climbs",
             "fi": "Pdf-bouldertopo (ruotsiksi). Uusimmat reitit saattavat puuttua",
             "sv": ""
+        },
+
+        "swimming": {
+            "en": "Nearby swimming place",
+            "fi": "Läheinen uimapaikka",
+            "sv": ""
         }
     },
 
