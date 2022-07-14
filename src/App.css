@@ -126,3 +126,43 @@ a.anchor {
 .packing_list_item {
   margin-bottom: 5px;
 }
+
+/* -- Program -- */
+
+
+.program_day {
+  margin: 0;
+}
+
+.program_day_content {
+  overflow: scroll;
+}
+
+.program_day_content > ul {
+  padding: 0;
+  list-style-type: none;
+  text-align: left;
+  width: fit-content;
+  min-width: 220px;
+}
+
+.program_event {
+  position: relative;
+  margin-left: 70px;
+}
+
+.program_time {
+  text-align: right;
+  position: absolute;
+  left: -60px;
+  width: 50px;
+}
+
+.program_event {
+  margin-bottom: 5px;
+}
+
+.program_icon {
+  font-size: 20px;
+  margin-bottom: -4px;
+}

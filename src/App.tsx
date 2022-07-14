@@ -28,8 +28,8 @@ const App: React.FunctionComponent = () => {
         
         <Start language={language} />
         <FalkbergetInfo language={language} />
-        <PackingList language={language}></PackingList>
         <Program language={language} />
+        <PackingList language={language}></PackingList>
         <SafetyPlan language={language} />
 
         <Footer language={language} />

@@ -78,6 +78,179 @@ const content = {
         }
     },
 
+    "program" : {
+        "title": {
+            "en": "Program",
+            "fi": "Ohjelma",
+            "sv": ""
+        },
+
+        "days": [
+            {
+                "title": {
+                    "en": "Friday 12.8.",
+                    "fi": "Perjantai 12.8.",
+                    "sv": ""
+                },
+
+                "events": [
+                    {
+                        "time": "ARROW",
+                        "en": "Arrival to Piteå Falkberget",
+                        "fi": "Saapuminen Piteå Falkbergetille",
+                        "sv": ""
+                    },
+
+                    {
+                        "time": "ARROW",
+                        "en": "Setting up camp (sunset 21.09)",
+                        "fi": "Leiriytyminen (auringonlasku 21.09)",
+                        "sv": ""
+                    },
+
+                    {
+                        "time": "ARROW",
+                        "en": "Free form campfire",
+                        "fi": "Vapaamuotoinen iltanuotio",
+                        "sv": ""
+                    },
+
+                    {
+                        "time": "21.00",
+                        "en": "Welcome words",
+                        "fi": "Tervetuloa",
+                        "sv": ""
+                    },
+
+                    {
+                        "time": "22.00",
+                        "en": "Quiet at the camp",
+                        "fi": "Hiljaisuus",
+                        "sv": ""
+                    },
+                ]
+            },
+
+            {
+                "title": {
+                    "en": "Saturday 13.8.",
+                    "fi": "Lauantai 13.8.",
+                    "sv": ""
+                },
+
+                "events": [
+                    {
+                        "time": "08.00",
+                        "en": "Wake up and breakfast",
+                        "fi": "Herätys ja aamupala",
+                        "sv": ""
+                    },
+
+                    {
+                        "time": "09.00",
+                        "en": "Safety info and icebreaking games",
+                        "fi": "Turvallisuusinfo ja tutustuminen",
+                        "sv": ""
+                    },
+
+                    {
+                        "time": "ARROW",
+                        "en": "Climbing",
+                        "fi": "Kiipeilyä",
+                        "sv": ""
+                    },
+
+                    {
+                        "time": "12.00",
+                        "en": "Lunch break",
+                        "fi": "Lounastauko",
+                        "sv": ""
+                    },
+
+                    {
+                        "time": "13.00",
+                        "en": "Climbing",
+                        "fi": "Kiipeilyä",
+                        "sv": ""
+                    },
+
+                    {
+                        "time": "17.00",
+                        "en": "Optional swimming trip",
+                        "fi": "Vaihtoehtoinen uimaretki",
+                        "sv": ""
+                    },
+
+                    {
+                        "time": "19.00",
+                        "en": "Dinner break",
+                        "fi": "Päivällistauko",
+                        "sv": ""
+                    },
+
+                    {
+                        "time": "20.00",
+                        "en": "Campfire with program",
+                        "fi": "Iltanuotio",
+                        "sv": ""
+                    },
+
+                    {
+                        "time": "22.00",
+                        "en": "Quiet at the camp",
+                        "fi": "Hiljaisuus",
+                        "sv": ""
+                    },
+                ]
+            },
+
+            {
+                "title": {
+                    "en": "Sunday 14.8.",
+                    "fi": "Sunnuntai 14.8.",
+                    "sv": ""
+                },
+
+                "events": [
+                    {
+                        "time": "08.00",
+                        "en": "Wake up and breakfast",
+                        "fi": "Herätys ja aamupala",
+                        "sv": ""
+                    },
+
+                    {
+                        "time": "09.00",
+                        "en": "Climbing",
+                        "fi": "Kiipeilyä",
+                        "sv": ""
+                    },
+
+                    {
+                        "time": "12.00",
+                        "en": "Lunch break",
+                        "fi": "Lounastauko",
+                        "sv": ""
+                    },
+
+                    {
+                        "time": "13.00",
+                        "en": "Climbing",
+                        "fi": "Kiipeilyä",
+                        "sv": ""
+                    },
+
+                    {
+                        "time": "15.00",
+                        "en": "Camp farewell",
+                        "fi": "Leirin päätös",
+                        "sv": ""
+                    },
+                ]
+            }
+        ]
+    },
+
     "packing_list": {
         "title": {
             "en": "Packing List",
@@ -390,14 +563,6 @@ const content = {
             }
 
         ]
-    },
-
-    "program" : {
-        "title": {
-            "en": "Program",
-            "fi": "Ohjelma",
-            "sv": ""
-        },
     },
 
     "safety_plan" : {
